@@ -437,30 +437,6 @@ a {
   margin-bottom: 0.5rem;
 }
 
-.skill-bar-track {
-  width: 100%;
-  height: 2px;
-  background: var(--rule);
-  position: relative;
-  margin-bottom: 0.35rem;
-}
-
-.skill-bar-fill {
-  height: 100%;
-  background: var(--ink);
-  width: 0;
-  transition: width 1.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.skill-item:hover .skill-bar-fill { background: var(--highlight); }
-
-.skill-pct {
-  font-family: var(--font-mono);
-  font-size: 0.6rem;
-  color: var(--ink-faint);
-  letter-spacing: 0.08em;
-}
-
 /* ── PROJECTS ── */
 .projects-section {
   border-bottom: 2px solid var(--ink);
