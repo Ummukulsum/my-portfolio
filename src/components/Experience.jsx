@@ -1,27 +1,21 @@
 const EXPERIENCE = [
   {
+    date: 'Jan 2026 — April 2026',
+    role: 'AI Automation and Chatbot Intern',
+    company: 'CAD Training Centre',
+    desc: 'Built workflow automation in Pabbly integrating Unbounce and Jotform, cutting administrative workload by 45%. Designed and tested course-specific chatbots for registered and past students. Set up the official WhatsApp API through Meta Business Suite, Meta Developer, and Wabot — including access token configuration and system connectivity. Developed ManyChat workflows for Facebook and coordinated with international teams including Pabbly India.',
+  },
+  {
+    date: 'Oct 2024 — Dec 2025',
+    role: 'Peer Mentor',
+    company: 'APU Maths Clinic, Asia Pacific University',
+    desc: 'Supported students with complex mathematical concepts through one-on-one mentoring, assignment reviews, and goal-setting. Facilitated peer-to-peer conversations to build confidence and open communication. Helped mentees raise their grades from failing to B- within two months.',
+  },
+  {
     date: '2024 — Present',
-    role: 'Frontend Developer',
-    company: 'Tech Startup Co.',
-    desc: 'Leading the frontend architecture for a B2B SaaS platform serving 10k+ users. Migrated codebase from JavaScript to TypeScript, reducing production bugs by 40%.',
-  },
-  {
-    date: '2022 — 2024',
-    role: 'Junior Web Developer',
-    company: 'Digital Agency KL',
-    desc: 'Built responsive websites and web applications for 20+ clients across retail, healthcare, and finance. Worked closely with designers in Figma end-to-end.',
-  },
-  {
-    date: '2021 — 2022',
-    role: 'Freelance Developer',
-    company: 'Self-employed',
-    desc: 'Delivered custom websites and landing pages for SMEs. Managed full client lifecycles from scoping to launch, achieving 100% on-time delivery.',
-  },
-  {
-    date: '2019 — 2021',
-    role: 'BSc Computer Science',
-    company: 'Universiti Malaya',
-    desc: 'Graduated with honours. Focused on software engineering and HCI. Final year project: an AI-powered study tool that won the faculty innovation award.',
+    role: 'Bachelor of Computer Science (Hons) in Artificial Intelligence',
+    company: 'Asia Pacific University, Kuala Lumpur',
+    desc: 'Vice Chancellor\'s List (2024). CGPA: 3.66. Focused on AI, machine learning, algorithm development, and data-driven systems. Currently exploring supervised learning with Scikit-learn and AI agent development.',
   },
 ];
 

@@ -1,8 +1,6 @@
 const LINKS = [
-  { label: 'Email', value: 'hello@ummukulsum.dev', href: 'mailto:hello@ummukulsum.dev' },
-  { label: 'LinkedIn', value: 'linkedin.com/in/ummukulsum', href: 'https://linkedin.com' },
   { label: 'GitHub', value: 'github.com/Ummukulsum', href: 'https://github.com/Ummukulsum' },
-  { label: 'Portfolio', value: 'ummukulsum.dev', href: '#' },
+  { label: 'LinkedIn', value: 'linkedin.com/in/ummukulsum', href: 'https://linkedin.com/in/ummukulsum' },
 ];
 
 export default function Contact() {
@@ -17,15 +15,14 @@ export default function Contact() {
         <div className="contact-layout">
           <div className="contact-left">
             <h3 className="contact-headline">
-              Have a project in mind?<br />
+              Have something to build?<br />
               <em style={{ fontFamily: 'var(--font-display)', fontWeight: 400, fontStyle: 'italic', color: 'var(--highlight)' }}>
                 Let's make it real.
               </em>
             </h3>
             <p className="contact-text">
-              I'm currently open to freelance projects and full-time opportunities. Whether you need
-              a pixel-perfect landing page, a complex web application, or a thoughtful design system
-              — I'd love to hear from you.
+              I'm currently open to internship opportunities, entry level job opportunities, freelance projects, and collaborations in AI, automation, and data.
+              Whether you're working on an interesting problem or just want to connect. I'd love to hear from you!
             </p>
 
             <nav className="contact-links" aria-label="Contact links">
@@ -43,15 +40,15 @@ export default function Contact() {
             <div className="colophon">
               <p><strong>Based in</strong><br />Kuala Lumpur, Malaysia</p>
               <br />
-              <p><strong>Currently</strong><br />Open to remote & hybrid roles</p>
+              <p><strong>Currently</strong><br />BCs Computer Science (AI) @ APU</p>
               <br />
-              <p><strong>Response time</strong><br />Within 24 hours</p>
+              <p><strong>Interests</strong><br />Machine Learning · Intelligent Automation · Data Science</p>
               <br />
-              <p><strong>Languages</strong><br />English · Bahasa Malaysia</p>
+              <p><strong>Beyond tech</strong><br />Video editing · Reading · Creative thinking</p>
             </div>
 
             <div className="stamp">
-              Available for hire
+              Open to opportunities
             </div>
           </div>
         </div>

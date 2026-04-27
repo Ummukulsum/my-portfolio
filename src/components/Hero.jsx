@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const WORDS = ['interfaces.', 'experiences.', 'the future.', 'with intent.'];
+const WORDS = ['AI solutions.', 'automation.', 'real impact.', 'with intent.'];
 
 export default function Hero() {
   const [wordIdx, setWordIdx] = useState(0);
@@ -33,7 +33,7 @@ export default function Hero() {
           <div>
             <p className="hero-issue mono">Vol. I — Portfolio 2025 — Kuala Lumpur, MY</p>
             <h1 className="display hero-h1">
-              Crafting digital
+              Building digital
               <br />
               <span className="line2 display-italic">
                 {WORDS[wordIdx].slice(0, charIdx)}
@@ -44,7 +44,7 @@ export default function Hero() {
           <div style={{ textAlign: 'right' }}>
             <p className="mono" style={{ fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--ink-faint)', marginBottom: 4 }}>Stack</p>
             <p className="mono" style={{ fontSize: '0.72rem', color: 'var(--ink-muted)', lineHeight: 1.8 }}>
-              React · TypeScript<br />Node.js · Tailwind<br />Figma · PostgreSQL
+              Python · R · C#<br />JavaScript · HTML · CSS<br />Pabbly · ManyChat
             </p>
           </div>
         </div>
@@ -53,9 +53,9 @@ export default function Hero() {
         <div className="hero-sub-grid">
           <div>
             <p className="hero-bio">
-              I'm a <strong>frontend developer & UI designer</strong> based in Malaysia, passionate
-              about building clean, accessible, and delightful digital products. I care as much about
-              how things look as how they work — and I obsess over the details between the two.
+               I'm an <strong>AI & Automation enthusiast</strong> studying Computer Science (AI) at Asia Pacific University, Malaysia.
+              I build systems that actually work — from workflow automation pipelines to data-driven research tools.
+              I care about solving real problems, mentoring others, and bringing a creative eye to everything I ship.
             </p>
             <div className="hero-ctas">
               <a href="#projects" className="btn btn-filled">View my work</a>
@@ -67,9 +67,9 @@ export default function Hero() {
           <div className="hero-sidebar">
             <div className="hero-stat-row">
               {[
-                { num: '2+', label: 'Years of experience' },
-                { num: '12', label: 'Projects shipped' },
-                { num: '8+', label: 'Technologies' },
+                { num: '3.66', label: 'CGPA - Vice Chancellor\'s List' },
+                { num: '3+', label: 'Real World Projects' },
+                { num: '45%', label: 'Admin worload reduced via automation' },
               ].map(({ num, label }) => (
                 <div className="hero-stat" key={label}>
                   <span className="hero-stat-num">{num}</span>
