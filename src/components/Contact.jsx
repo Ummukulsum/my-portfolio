@@ -1,4 +1,5 @@
 const LINKS = [
+  { label: 'Email', value: 'ummukulsummahmud@gmail.com', href: 'mailto:ummukulsummahmud@gmail.com' },
   { label: 'GitHub', value: 'github.com/Ummukulsum', href: 'https://github.com/Ummukulsum' },
   { label: 'LinkedIn', value: 'linkedin.com/in/ummukulsum', href: 'https://linkedin.com/in/ummukulsum' },
 ];
