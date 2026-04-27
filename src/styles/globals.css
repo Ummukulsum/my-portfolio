@@ -425,8 +425,6 @@ a {
   transition: background 0.2s;
   cursor: default;
 }
-
-.skill-item:nth-child(4n) { border-right: none; }
 .skill-item:hover { background: var(--surface); }
 
 .skill-name {
@@ -434,7 +432,8 @@ a {
   font-size: 0.875rem;
   font-weight: 500;
   color: var(--ink);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 /* ── PROJECTS ── */
